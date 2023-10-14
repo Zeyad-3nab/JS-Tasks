@@ -1,0 +1,25 @@
+.text{
+    text-align: center;
+    padding-top: 5rem;
+    color: black;
+}
+.images img{
+    width: 20%;
+    height: 150px;
+    border-radius: .4rem;
+    margin: 0 .5rem;
+}
+.images{
+    position: absolute;
+    bottom: 10%;
+    display: flex;
+    left: 15%;
+    align-items: center; 
+}
+.container{
+    width: auto;
+    height: 100vh;
+    background-image: url(./images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,27 @@
+.container{
+    min-height: 100vh;
+    background-image: url(./images/1.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    /* background-position: center; */
+}
+.b_g{
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 4rem;
+}
+ .container i:nth-child(1){
+    position: absolute;
+    left: 0;
+ }
+ .container i:nth-child(3){
+    position: absolute;
+    right: 0;
+ }
